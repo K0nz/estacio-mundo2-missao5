@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const uri = 'mongodb://desenv:Fortaleza@localhost:27017/?authMechanism=SCRAM-SHA-256';
+const uri = 'mongodb://localhost:27017/';
 const dbName = 'livraria';
 
 mongoose.connect(uri + dbName, {
